@@ -1,0 +1,5 @@
+#!/bin/bash
+
+dirname=`echo $1 | cut -d "." -f 1`
+
+mkdir $dirname
