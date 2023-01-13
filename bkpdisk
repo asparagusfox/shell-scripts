@@ -1,0 +1,4 @@
+#!/bin/bash
+
+rsync -ahv ~/Desktop/ Desktop/ --delete
+rsync -ahv ~/Documents/ Documents/ --delete

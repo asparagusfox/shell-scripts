@@ -1,0 +1,4 @@
+#!/bin/bash
+
+rsync -ahvz ~/Desktop/ dyn:backup/Desktop/ --delete
+rsync -ahvz ~/Documents/ dyn:backup/Documents/ --delete
