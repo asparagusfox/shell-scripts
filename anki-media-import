@@ -7,3 +7,5 @@ mkdir $filename
 pdftoppm -jpeg $1 $filename/$filename
 
 anki
+
+sleep .5
