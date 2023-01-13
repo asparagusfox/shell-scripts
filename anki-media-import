@@ -9,3 +9,5 @@ pdftoppm -jpeg $1 $filename/$filename
 anki
 
 sleep .5
+
+xdotool key alt+t key Up key Enter
