@@ -10,4 +10,8 @@ anki
 
 sleep .5
 
-xdotool key alt+t key Up key Enter
+xdotool key alt+t Up Enter
+
+sleep .5
+
+xdotool key Tab Shift+Tab Enter
